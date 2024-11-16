@@ -1,8 +1,8 @@
 # Use a smaller, secure, and up-to-date base image for Java 17
-FROM openjdk:17-jdk-slim
+FROM eclipse-temurin:17-jre-alpine
 
 # Expose the application port
-EXPOSE 9090
+EXPOSE 8080
 
 # Set environment variables
 ENV APP_HOME=/usr/src/app
