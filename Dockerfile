@@ -2,7 +2,7 @@
 FROM openjdk:17-jdk-slim
 
 # Expose the application port
-EXPOSE 8080
+EXPOSE 9090
 
 # Set environment variables
 ENV APP_HOME=/usr/src/app
