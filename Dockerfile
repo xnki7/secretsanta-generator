@@ -1,5 +1,5 @@
 # Use a smaller, secure, and up-to-date base image for Java 17
-FROM openjdk:17-jre-slim
+FROM openjdk:8u151-jdk-alpine3.7
 # Expose the application port
 EXPOSE 8080
 
