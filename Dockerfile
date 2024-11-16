@@ -1,6 +1,5 @@
 # Use a smaller, secure, and up-to-date base image for Java 17
-FROM eclipse-temurin:17-jre-alpine
-
+FROM openjdk:17-jre-slim
 # Expose the application port
 EXPOSE 8080
 
